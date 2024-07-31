@@ -94,27 +94,21 @@ jupyter notebook testing.ipynb
 ## Examples
 
 SAMPLE OUTPUTS
-
-1. ![image](https://github.com/user-attachments/assets/101fb7cb-588b-4b41-884f-0401ef4462b8)
-   
-Sample Output of a Male image
-
+1.Sample Output of a Male image
+![image](https://github.com/user-attachments/assets/101fb7cb-588b-4b41-884f-0401ef4462b8)
 The DenseNet model successfully analyzed the infrared image and predicted the gender as Male. Infrared images, by capturing thermal patterns, offer unique features that DenseNet can effectively utilize for such tasks.
 
-2. ![image](![image](https://github.com/user-attachments/assets/5ba66be4-6a54-4ea5-bc97-507bde55b5cd)
 
-Sample Output of a Female Image
-
+2.Sample Output of a Female Image
+![image](![image](https://github.com/user-attachments/assets/5ba66be4-6a54-4ea5-bc97-507bde55b5cd)
 The ResNet-50 model successfully analyzed the infrared image and predicted the gender as Female. Infrared images, by capturing thermal patterns, offer unique features that ResNet-50 can effectively utilize for such tasks
 
-
-3. ![image](https://github.com/user-attachments/assets/1c2b3dfe-37fb-4601-bd87-7db5bc0353c4)
- Misclassified Female as Male
- 
+3.  Misclassified Female as Male
+![image](https://github.com/user-attachments/assets/1c2b3dfe-37fb-4601-bd87-7db5bc0353c4)
 The ResNet-50 model failed to analyze the infrared image and predicted the gender as Male, which was truly a Female. 
 
-CONFUSION MATRICES
 
+CONFUSION MATRICES
 1.  Confusion Matrix for DenseNet-121
  ![image](https://github.com/user-attachments/assets/d1f416cf-d834-455a-810a-a6341dfa6743)
 
