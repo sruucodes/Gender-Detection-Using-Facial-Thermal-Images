@@ -100,8 +100,7 @@ Sample Output of a Male image
 
 The DenseNet model successfully analyzed the infrared image and predicted the gender as Male. Infrared images, by capturing thermal patterns, offer unique features that DenseNet can effectively utilize for such tasks.
 
-2. ![image](![image](https://github.com/user-attachments/assets/06a8f237-0d85-4bdb-ba87-be7f713ec2e0)
-)
+2. ![image](https://github.com/user-attachments/assets/5daca919-96a3-4891-9478-5d7e15c0e123)
 Sample Output of a Female Image
 
 The ResNet-50 model successfully analyzed the infrared image and predicted the gender as Female. Infrared images, by capturing thermal patterns, offer unique features that ResNet-50 can effectively utilize for such tasks
