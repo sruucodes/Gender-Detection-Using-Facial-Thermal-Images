@@ -49,6 +49,13 @@ To download the complete datasets, please use the following link:
 
 ## Installation
 
+⁠ bash
+    pip install torch torchvision
+    pip install torchsummary
+    pip install numpy matplotlib
+    pip install pillow
+     ⁠
+
 
 ### Prerequisites
 
