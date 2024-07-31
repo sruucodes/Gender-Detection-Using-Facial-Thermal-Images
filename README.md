@@ -153,7 +153,8 @@ The DenseNet model successfully analyzed the infrared image and predicted the ge
 The ResNet-50 model successfully analyzed the infrared image and predicted the gender as Female. Infrared images, by capturing thermal patterns, offer unique features that ResNet-50 can effectively utilize for such tasks
 
 3.  Misclassified Female as Male
-![image](https://github.com/user-attachments/assets/1c2b3dfe-37fb-4601-bd87-7db5bc0353c4)
+![image](https://github.com/user-attachments/assets/eafc3402-7dc6-49c2-8bfc-fcac85a80188)
+
 The ResNet-50 model failed to analyze the infrared image and predicted the gender as Male, which was truly a Female. Infrared images, by capturing thermal patterns, offer unique features that ResNet-50 can effectively utilize for such tasks
 
 
