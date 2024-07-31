@@ -25,21 +25,21 @@ This repository contains pre-trained deep learning models for gender detection u
 
 ResNet-50 is a 50-layer residual network developed by Kaiming He et al. It is known for its efficiency and accuracy in various image recognition tasks.
 
-- **File**: `ResNet-50.pt`
+- **File**: [`ResNet-50.pt`](https://drive.google.com/drive/folders/14usN0kr70S5mBn4r-o5tMsyxWsuYCewC)
 - **Parameters**: 23.5 million
 
 ### DenseNet-121
 
 DenseNet-121 is a densely connected convolutional network developed by Gao Huang et al. It improves information flow between layers and is known for achieving high accuracy with fewer parameters.
 
-- **File**: `DenseNet-121.pt`
+- **File**: [`DenseNet-121.pt`](https://drive.google.com/drive/folders/14usN0kr70S5mBn4r-o5tMsyxWsuYCewC)
 - **Parameters**: 8 million
 
 ### ResNet-101
 
 ResNet-101 is a deeper variant of the ResNet architecture, with 101 layers. It provides improved performance on complex image recognition tasks.
 
-- **File**: `ResNet-101.pt`
+- **File**: [`ResNet-101.pt`](https://drive.google.com/drive/folders/14usN0kr70S5mBn4r-o5tMsyxWsuYCewC)
 - **Parameters**: 44.6 million
 
 ## Datasets Used
@@ -107,17 +107,23 @@ The ResNet-50 model failed to analyze the infrared image and predicted the gende
 CONFUSION MATRICES
 
 1.![image](https://github.com/user-attachments/assets/49b6ce68-7156-4aa5-9477-2b7c5a9fddfb)
-Confusion Matrix for DenseNet-121
+
+
+  Confusion Matrix for DenseNet-121
 
 The DenseNet-121 confusion matrix reveals that the model correctly classified 51 males and 26 females. However, it misclassified 4 males as females and 9 females as males. This indicates that while DenseNet-121 is quite accurate, it has a higher rate of false negatives, meaning it sometimes fails to identify females correctly.
 
 2. ![image](https://github.com/user-attachments/assets/a44c84a6-f048-467b-82a6-cc87981da15b)
-Confusion Matrix for ResNet-50
+
+   
+  Confusion Matrix for ResNet-50
 
 The ResNet-50 confusion matrix indicates that the model effectively distinguishes between males and females, correctly classifying 51 males and 30 females. The model's performance is highlighted by its lower misclassification rates, with only 4 males incorrectly identified as females and 5 females misclassified as males.
 
 3. ![image](https://github.com/user-attachments/assets/7c19ba66-2b97-471c-a05c-f0c50c4dc694)
-Confusion Matrix for ResNet-101
+
+
+  Confusion Matrix for ResNet-101
 
 The ResNet-101 confusion matrix demonstrates that the model effectively identifies males, correctly classifying 54 out of the total. However, it shows more difficulty with female classification, correctly identifying only 21 females while misclassifying 14 females as males.
 
