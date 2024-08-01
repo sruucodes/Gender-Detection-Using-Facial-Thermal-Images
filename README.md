@@ -46,7 +46,7 @@ ResNet-101 is a deeper variant of the ResNet architecture, with 101 layers. It p
 ## Datasets Used
 
 To download the complete datasets, please use the following link:
-[Datasets Download Link](https://drive.google.com/open?id=1wGDNfCQE1kngsmYiKlKHHZwgntlVwiGJ)
+[Datasets Download Link](https://drive.google.com/drive/folders/1jXxfN02zvCrzDuAetYZW5J9KU3fhVTmj)
 
 ## Installation
 
